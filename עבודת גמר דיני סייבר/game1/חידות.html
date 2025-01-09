@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <script src="חידות.js"></script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../דףראשי.css">
+</head>
+<body dir="rtl">
+
+    <div class="logo">
+        <span>
+            <h1>מצא את המקום על פי החידה והגיע אליו</h1>
+        </span>
+    </div>
+    
+    <h1></h1>
+    <h1></h1>
+    <h1></h1>
+    
+    
+    <div class="about-the-game center-text">
+        <h2 id="question"></h2>
+    </div>
+    <br>
+    <br>  
+    <div class="about-the-game center-text">
+
+        <input type="radio" id="1" name="dugma" onclick="checkAnswer(this)"><span id="Ans1">תשובה 1</span> 
+        <br> 
+        <input type="radio" id="2" name="dugma" onclick="checkAnswer(this)"><span id="Ans2">תשובה 2</span> 
+        <br>
+        <input type="radio" id="3" name="dugma" onclick="checkAnswer(this)"><span id="Ans3">תשובה 3</span>
+        <br> 
+        <input type="radio" id="4" name="dugma" onclick="checkAnswer(this)"><span id="Ans4">תשובה 4</span> 
+        <br> 
+        <input type="radio" id="5" name="dugma" onclick="checkAnswer(this)"><span id="Ans5">תשובה 5</span> 
+        <br><br>
+      
+    </div>
+    <script>
+        document.addEventListener("DOMContentLoaded", function() {
+        Question(); // קריאה לפונקציה Question בעת טעינת הדף
+        });
+
+    </script>
+    
+</body>
+</html>

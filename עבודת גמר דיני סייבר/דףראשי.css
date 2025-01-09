@@ -1,0 +1,186 @@
+body{
+    background-image: url(pic/תמונת\ רקע\ מתאימה\ לדף.png);
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+    
+    background-color: #ffffff;
+    color: #000000;
+    
+    
+}
+.logo { width: 100%;
+    height: 150px;
+    background-color: #D3D3D3;
+    position: relative;
+    clip-path: polygon( 
+    0% 20%, 10% 20%, 10% 0%, 20% 0%,20% 20%,
+     30% 20%, 30% 0%,
+    40% 0%, 40% 20%, 50% 20%, 50% 0%,
+    60% 0%, 60% 20%, 70% 20%, 70% 0%,
+    80% 0%, 80% 20%, 90% 20%, 90% 0%,
+    100% 0%, 100% 20%, 100% 100%, 0% 100% );
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #333;
+    font-size: 18px;
+    font-weight: bold;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+}
+
+img{
+    height: 200px;
+    width: 200px;
+    border-radius: 200px;
+}
+
+
+header a {
+    display: inline-block;
+    margin: 10px; /* ניתן לשנות את הערך לפי הצורך */
+}
+.details {
+    display: none;
+}
+
+
+.about {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 80%;
+}
+
+.about ul {
+    list-style-type: none;
+    padding: 0;
+}
+.center-text {
+    width: 70%;
+    margin: 0 auto; /* יישור למרכז */
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.details {
+    width: 100%;
+}
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th {
+    width: 45%;
+    padding: 10px;
+    vertical-align: top;
+}
+.space {
+    width: 5%;
+}
+
+header {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+header a {
+    display: inline-block;
+    margin: 10px;
+}
+
+nav {
+    background-color: #D3D3D3;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+nav a {
+    margin: 0 15px;
+    text-decoration: none;
+    font-weight: bold;
+    color: #000000;
+    background-color: #a2a2a2;
+    padding: 10px 15px;
+    border-radius: 5px;
+}
+
+.center-text {
+    width: 70%;
+    margin: 0 auto;
+    text-align: center;
+    background-color: #D3D3D3;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.details {
+    display: none;
+}
+
+.cta {
+    display: inline-block;
+    margin: 10px;
+    padding: 10px 20px;
+    background-color: #a2a2a2;
+    color: #020202;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+
+
+/* אפקט מעבר לקישורים */
+nav a, .cta {
+    transition: background-color 0.3s ease;
+}
+
+nav a:hover, .cta:hover {
+    background-color: #717171;
+}
+
+/* אפקט מעבר לתמונות בטבלה */
+table img {
+    transition: transform 0.3s ease;
+}
+
+table img:hover {
+    transform: scale(1.1);
+}
+
+/* שיפור התצוגה של כפתורים וקישורים */
+.nav a, .cta {
+    transition: all 0.3s ease;
+}
+
+.nav a:hover, .cta:hover {
+    background-color: #575757;
+    color: #ffffff;
+}
+div h1
+{
+    text-align: right;
+}
+/* CSS ליישור לימין */
+ol li {
+    text-align: right;
+    direction: rtl;
+    list-style-position: inside;
+}
+
+/* או במקרה של רשימת <ul> */
+ul li {
+    text-align: right;
+    direction: rtl;
+    list-style-position: inside;
+}
+
+
